@@ -1,0 +1,17 @@
+{
+  "name": "node-exe-template",
+  "version": "0.0.0",
+  "description": "Template with '@energypatrikhu/node-exe-compile' to compile Node.js project to executable",
+  "scripts": {
+    "start": "tsc --build && node ./build/index.js",
+    "build": "node-exe-compile"
+  },
+  "author": "EnergyPatrikHU",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@energypatrikhu/node-exe-compile": "latest",
+    "@types/node": "22.9.0",
+    "typescript": "5.6.3"
+  }
+}

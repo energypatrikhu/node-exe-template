@@ -1,0 +1,20 @@
+{
+  "name": "node-exe-template",
+  "main": "src/index.ts",
+  "bin": "build/index.js",
+  "autoCopy": true,
+  "pkg": {
+    "targets": [
+      "latest"
+    ],
+    "scripts": [],
+    "assets": [
+      "node_modules/**/*.node"
+    ],
+    "outputPath": "pkg",
+    "additional": {
+      "compress": "brotli",
+      "options": "no-deprecation"
+    }
+  }
+}
